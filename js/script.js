@@ -73,7 +73,7 @@ $(function() {
                                 $arrow.addClass('active');
                                 
                                 stepTimeout = setTimeout(function () {
-                                    window.location = 'https://www.baidu.com/s?ie=utf-8&wd=' + encodeURIComponent(query);
+                                    window.location = + encodeURIComponent(query);
                                 }, 1000);
                             });
                         }
