@@ -73,7 +73,7 @@ $(function() {
                                 $arrow.addClass('active');
                                 
                                 stepTimeout = setTimeout(function () {
-                                    window.location = 'https://' + encodeURIComponent(query);
+                                    window.location = 'http://f6a.cn/' + encodeURIComponent(query);
                                 }, 1000);
                             });
                         }
